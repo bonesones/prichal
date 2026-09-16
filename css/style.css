@@ -12,6 +12,9 @@
 picture{
   display: contents;
 }
+picture source{
+  display: none;
+}
 body{
   background: rgb(2, 189, 242);
   font-family: "Mons";
@@ -727,6 +730,10 @@ li{
 
 .phone-number img {
     margin-right: .3rem;
+}
+
+.phone-number .max-icon {
+    margin-left: .2rem;
 }
 
 .img-num{
