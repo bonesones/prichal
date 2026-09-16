@@ -1,37 +1,38 @@
 @font-face {
-    font-family: "Mons";
-    src: url(../Montserrat-Medium.woff2) format('woff2'),
-         url(../Montserrat-Medium.ttf) format('truetype');
-    font-display: swap;
+  font-family: "Mons";
+  src:
+    url(../Montserrat-Medium.woff2) format("woff2"),
+    url(../Montserrat-Medium.ttf) format("truetype");
+  font-display: swap;
 }
 @font-face {
-    font-family: "Os";
-    src: url(../UZSans-Regularr.ttf) format('truetype');
-    font-display: swap;
+  font-family: "Os";
+  src: url(../UZSans-Regularr.ttf) format("truetype");
+  font-display: swap;
 }
-picture{
+picture {
   display: contents;
 }
-picture source{
+picture source {
   display: none;
 }
-body{
+body {
   background: rgb(2, 189, 242);
   font-family: "Mons";
   margin: 0;
-  padding-bottom: 10px
+  padding-bottom: 10px;
 }
-h1{
+h1 {
   font-family: "Os";
 }
-.top-image{
+.top-image {
   max-height: 100%;
 }
-.sec-par{
+.sec-par {
   padding-top: 8px;
   padding-bottom: 8px;
 }
-.gallary-btn{
+.gallary-btn {
   background-color: white;
   line-height: 90px;
   color: rgb(189, 0, 0);
@@ -42,26 +43,26 @@ h1{
   width: 47%;
   border-radius: 15px;
 }
-main{
+main {
   display: flex;
   justify-content: center;
   flex-direction: column;
 }
-#close-btn{
+#close-btn {
   z-index: 10000;
   position: fixed;
   left: 90%;
 }
-#close-btn:hover{
+#close-btn:hover {
   cursor: pointer;
 }
-li{
+li {
   text-indent: 0;
 }
-#spec{
+#spec {
   line-height: 1.5;
 }
-#modal-background{
+#modal-background {
   position: absolute;
   top: 0px;
   right: 0px;
@@ -70,11 +71,11 @@ li{
   background: rgba(0, 0, 0, 0.6);
   z-index: 1000;
 }
-.opened{
+.opened {
   z-index: 99999;
   position: fixed;
 }
-.address{
+.address {
   background-color: white;
   height: 100px;
   width: 47%;
@@ -82,68 +83,68 @@ li{
   border-radius: 15px;
 }
 
-@media screen and (min-width: 1000px){
-  .img-gallary:hover{
-    cursor:pointer;
+@media screen and (min-width: 1000px) {
+  .img-gallary:hover {
+    cursor: pointer;
   }
-  .opened:hover{
+  .opened:hover {
     cursor: default;
   }
-  
-  
+
   .special-image.opened {
-      width: 70%;
+    width: 70%;
   }
-  
-  .address div{
+
+  .address div {
     padding-top: 10px;
   }
-  .parag{
+  .parag {
     padding-left: 35px;
   }
-  .main-header{
+  .main-header {
     display: flex;
     justify-content: center;
     margin-top: 20px;
   }
-  .top-img{
+  .top-img {
     max-width: 600px;
   }
-  .sec{
+  .sec {
     line-height: 2.2;
   }
-  .right-col{
+  .right-col {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     height: 460px;
   }
 
-  .site-title{
+  .site-title {
     background: url(../images/header-image.jfif);
     width: 600px;
     height: 227px;
   }
-  .site-title-description{
+  .site-title-description {
     display: flex;
     flex-direction: row;
     position: relative;
     margin: 0 15px;
     width: 100%;
   }
-  .top-image{
+  .top-image {
     max-width: 50%;
   }
-  h1 div{
+  h1 div {
     display: inline-block;
     color: rgb(0, 8, 193);
     line-height: 80px;
   }
-  #main-tag{
+  #main-tag {
     position: relative;
     left: 20px;
+    white-space: nowrap;
   }
-  .main-description{
+  .main-description {
     display: block;
     background-color: white;
     max-width: 1200px;
@@ -154,7 +155,7 @@ li{
     letter-spacing: 2px;
     text-align: center;
   }
-  .usual{
+  .usual {
     background-color: white;
     margin-right: 65px;
     font-size: 20px;
@@ -164,16 +165,16 @@ li{
     display: flex;
     align-items: center;
   }
-  .sec{
+  .sec {
     display: flex;
     justify-content: center;
     margin-top: 1em;
   }
-  #spec img{
+  #spec img {
     width: 535px;
     height: auto;
   }
-  .unusual{
+  .unusual {
     background-color: white;
     margin-left: 65px;
     font-size: 20px;
@@ -181,7 +182,7 @@ li{
     letter-spacing: 2px;
     color: black;
   }
-  #last{
+  #last {
     background-color: white;
     font-size: 20px;
     letter-spacing: 2px;
@@ -190,25 +191,25 @@ li{
     line-height: 1.4;
     bottom: 7px;
   }
-  #last p{
+  #last p {
     padding-left: 25px;
   }
-  ol{
+  ol {
     line-height: 1.3;
   }
-  .gallary{
+  .gallary {
     display: flex;
     align-items: center;
     flex-direction: column;
   }
-  #back-link{
+  #back-link {
     color: rgba(0, 0, 0, 0.4);
     font-size: 21px;
     margin-left: 30px;
     line-height: 100px;
     background-color: inherit;
   }
-  #gallary-title{
+  #gallary-title {
     font-size: 60px;
     color: white;
     text-align: center;
@@ -216,233 +217,235 @@ li{
     margin-bottom: 30px;
     margin-top: 0;
   }
-  .img-gallary{
+  .img-gallary {
     width: 28%;
     height: auto;
     border-radius: 15px;
   }
-  
+
   .special-image {
     width: 35%;
     align-self: center;
-    height: fit-content
+    height: fit-content;
   }
-  
-  
-  .line{
+
+  .line {
     display: flex;
     width: 100%;
     flex-direction: row;
     justify-content: space-around;
     padding: 30px 0;
   }
-  hr{
+  hr {
     background-color: white;
     width: 800px;
     height: 5px;
   }
-  .site-title-description{
+  .site-title-description {
     bottom: 19px;
   }
-   #new_img.opened {
-	  width: 55%;
+  #new_img.opened {
+    width: 55%;
   }
-  
-  .opened{
-	  width: 75%;
-	  height: auto;
-      top: 50%;
-	  left: 50%;
-	  transform: translate(-50%, -50%);
-    }
+
+  .opened {
+    width: 75%;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
   @media screen and (max-width: 1085px) {
-    .sec{
+    .sec {
       line-height: 2.2;
     }
-    #last{
+    #last {
       line-height: 1.2;
     }
   }
   @media screen and (min-width: 1120px) {
-    ol{
+    ol {
       line-height: 1.4;
     }
   }
   @media screen and (min-width: 1150px) {
-    ol{
+    ol {
       line-height: 1.5;
     }
   }
   @media screen and (min-width: 1190px) {
-    ol{
+    ol {
       line-height: 1.6;
     }
-    .site-title-description{
+    .site-title-description {
       bottom: 23px;
     }
   }
   @media screen and (max-width: 1228px) {
-    h1{
+    h1 {
       text-align: center;
     }
     #main-body {
       padding-left: 20px;
     }
-    #first{
+    #first {
       width: 50%;
     }
-    #last-img{
+    #last-img {
       width: 100%;
     }
-    .usual{
+    .usual {
       width: 43%;
       height: 460px;
       font-size: 20px;
       display: flex;
       align-items: center;
     }
-    .unusual{
+    .unusual {
       width: 50%;
     }
-    #spec img{
+    #spec img {
       width: 43%;
       height: auto;
     }
-    .sec{
+    .sec {
       justify-content: space-between;
     }
-    .right-col{
+    .right-col {
       width: 50%;
     }
   }
-  @media screen and (min-width: 1228.2px){
-    .sec img{
+  @media screen and (min-width: 1228.2px) {
+    .sec img {
       width: 560px;
     }
-    .usual{
+    .usual {
       width: 535px;
       height: 460px;
       font-size: 20px;
     }
-    .unusual{
+    .unusual {
       width: 600px;
     }
-    .sec img{
+    .sec img {
       width: 600px;
     }
-    #spec img{
+    #spec img {
       width: 535px;
     }
-    .right-col{
+    .right-col {
       width: 600px;
     }
   }
-  .opened.high-image{
+  .opened.high-image {
     width: 45%;
   }
-  
-  #spec-img{
+
+  #spec-img {
     bottom: 25px;
   }
-  #id1{
+  #id1 {
     transform: rotate(12deg);
     transform-origin: bottom;
   }
-  #id2{
+  #id2 {
     position: relative;
-    top: 15px;
+    top: 6px;
+    right: 4px;
+    transform: rotate(8deg);
+    transform-origin: bottom;
+  }
+  #id3 {
+    position: relative;
+    top: 10px;
+    right: 8px;
     transform: rotate(3deg);
     transform-origin: bottom;
   }
-  #id3{
+  #id4 {
     position: relative;
-    top: 12px;
-    transform: rotate(-4deg);
+    right: 12px;
+    top: 8px;
+    transform: rotate(-2deg);
     transform-origin: bottom;
   }
-  #id4{
+  #id4-5 {
     position: relative;
-    right: 3px;
-    top: 5px;
-    transform: rotate(-8deg);
-    transform-origin: bottom;
+    right: 16px;
+    top: 2px;
+    transform: rotate(-6deg);
   }
-  #id4-5{
+  #id5 {
     position: relative;
-    right: 13px;
+    bottom: 6px;
+    right: 20px;
+    transform-origin: top-left;
     transform: rotate(-9deg);
   }
-  #id5{
-    position: relative;
-    bottom: 5px;
-    right: 15px;
-    transform-origin: top-left;
-    transform: rotate(-10deg);
-  }
-  #id6{
+  #id6 {
     position: relative;
     bottom: 16px;
-    right: 20px;
+    right: 24px;
     transform-origin: top-left;
     transform: rotate(-11deg);
   }
-  #id7{
+  #id7 {
     position: relative;
-    bottom: 28px;
+    bottom: 26px;
     right: 28px;
+    transform-origin: top-left;
+    transform: rotate(-13deg);
+  }
+  #id8 {
+    position: relative;
+    bottom: 35px;
+    right: 32px;
+    transform-origin: top-left;
+    transform: rotate(-14deg);
+  }
+  #id9 {
+    position: relative;
+    bottom: 42px;
+    right: 36px;
     transform-origin: top-left;
     transform: rotate(-12deg);
   }
-  #id8{
-    position: relative;
-    bottom: 36px;
-    right: 35px;
-    transform-origin: top-left;
-    transform: rotate(-15deg);
-  }
-  #id9{
-    position: relative;
-    bottom: 44px;
-    right: 44px;
-    transform-origin: top-left;
-    transform: rotate(-9deg);
-  }
-  #id10{
+  #id10 {
     position: relative;
     bottom: 46px;
-    right: 49px;
+    right: 40px;
+    transform-origin: top-left;
+    transform: rotate(-8deg);
+  }
+  #id11 {
+    position: relative;
+    bottom: 47px;
+    right: 44px;
     transform-origin: top-left;
     transform: rotate(-3deg);
   }
-  #id11{
+  #id12 {
     position: relative;
     bottom: 46px;
-    right: 51px;
+    right: 48px;
     transform-origin: top-left;
-    transform: rotate(5deg);
+    transform: rotate(2deg);
   }
-  #id12{
+  #id13 {
     position: relative;
-    bottom: 46px;
-    right: 53px;
+    bottom: 42px;
+    right: 52px;
     transform-origin: top-left;
-    transform: rotate(4deg);
+    transform: rotate(7deg);
   }
-  #id13{
-    position: relative;
-    bottom: 43px;
-    right: 58px;
-    transform-origin: top-left;
-    transform: rotate(9deg);
-  }
-  #id14{
+  #id14 {
     position: relative;
     bottom: 40px;
     right: 63px;
     transform-origin: top-left;
     transform: rotate(12deg);
   }
-  #id15{
+  #id15 {
     position: relative;
     bottom: 33px;
     right: 70px;
@@ -450,158 +453,164 @@ li{
     transform: rotate(16deg);
   }
 }
-@media screen and (min-width: 310px) and (max-width: 999.9px){
-  #id1{
+@media screen and (min-width: 310px) and (max-width: 999.9px) {
+  #id1 {
     transform: rotate(12deg);
     top: 10px;
     transform-origin: bottom;
     position: relative;
   }
-  #id2{
+  #id2 {
     position: relative;
-    top: 15px;
-    transform: rotate(3deg);
+    top: 14px;
+    right: 3px;
+    transform: rotate(7deg);
     transform-origin: bottom;
   }
-  #id3{
+  #id3 {
     position: relative;
     top: 12px;
-    transform: rotate(-4deg);
+    right: 6px;
+    transform: rotate(2deg);
     transform-origin: bottom;
   }
-  #id4{
+  #id4 {
     position: relative;
-    right: 10px;
-    top: 5px;
-    transform: rotate(-17deg);
+    right: 9px;
+    top: 7px;
+    transform: rotate(-4deg);
   }
-  #id4-5{
+  #id4-5 {
     position: relative;
-    right: 13px;
-    transform: rotate(-21deg);
+    right: 12px;
+    top: 1px;
+    transform: rotate(-9deg);
   }
-  #id5{
+  #id5 {
     position: relative;
-    bottom: 8px;
+    bottom: 6px;
     right: 15px;
-    transform: rotate(-21deg);
-  }
-  #id6{
-    position: relative;
-    bottom: 16px;
-    right: 20px;
-    transform-origin: top-left;
     transform: rotate(-13deg);
   }
-  #id7{
+  #id6 {
     position: relative;
-    bottom: 19px;
-    right: 24px;
+    bottom: 13px;
+    right: 18px;
+    transform-origin: top-left;
+    transform: rotate(-12deg);
+  }
+  #id7 {
+    position: relative;
+    bottom: 18px;
+    right: 21px;
     transform-origin: top-left;
     transform: rotate(-9deg);
   }
-  #id8{
+  #id8 {
+    position: relative;
+    bottom: 21px;
+    right: 24px;
+    transform-origin: top-left;
+    transform: rotate(-5deg);
+  }
+  #id9 {
+    position: relative;
+    bottom: 22px;
+    right: 27px;
+    transform-origin: top-left;
+    transform: rotate(0deg);
+  }
+  #id10 {
     position: relative;
     bottom: 20px;
-    right: 26px;
-    transform-origin: top-left;
-    transform: rotate(-3deg);
-  }
-  #id9{
-    position: relative;
-    bottom: 20px;
-    right: 26px;
-    transform-origin: top-left;
-    transform: rotate(-3deg);
-  }
-  #id10{
-    position: relative;
-    bottom: 19px;
-    right: 31px;
+    right: 30px;
     transform-origin: top-left;
     transform: rotate(5deg);
   }
-  #id11{
+  #id11 {
     position: relative;
-    bottom: 14px;
-    right: 34px;
-    transform-origin: top-left;
-    transform: rotate(5deg);
-  }
-  #id12{
-    position: relative;
-    bottom: 14px;
+    bottom: 16px;
     right: 33px;
     transform-origin: top-left;
-    transform: rotate(13deg);
+    transform: rotate(10deg);
   }
-  #id13{
+  #id12 {
     position: relative;
-    bottom: 8px;
-    right: 37px;
+    bottom: 11px;
+    right: 36px;
+    transform-origin: top-left;
+    transform: rotate(14deg);
+  }
+  #id13 {
+    position: relative;
+    bottom: 5px;
+    right: 39px;
     transform-origin: top-left;
     transform: rotate(17deg);
   }
-  .address div{
+  .address div {
     padding-top: 10px;
   }
-  p{
+  p {
     padding-right: 25px;
     text-align: center;
   }
-  article{
+  article {
     text-align: center;
     padding-left: 20px;
     padding-right: 20px;
   }
-  #last p{
+  #last p {
     text-align: center;
     padding-left: 20px;
     padding-right: 20px;
     line-height: 2;
   }
-  #close-btn{
+  #close-btn {
     top: 16%;
     left: 85%;
   }
-  .main-header{
+  .main-header {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  .top-image{
+  .top-image {
     width: 100%;
   }
-  main{
+  main {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  .site-title{
-    background: url(../images/header-image.jfif);
+  .site-title {
+    background: url(../images/header-image.jfif) center / cover no-repeat;
     width: 100%;
-    height: 227px;
+    height: auto;
+    min-height: 227px;
   }
-  #main-tag{
+  #main-tag {
     text-align: center;
+    white-space: nowrap;
+    font-size: 32px;
   }
-  p{
+  p {
     margin-block-start: 0;
     margin-block-end: 0;
   }
-  h1 div{
+  h1 div {
     display: inline-block;
     color: rgb(0, 8, 193);
     line-height: 80px;
   }
-  .site-title-description{
+  .site-title-description {
     display: flex;
     flex-direction: row;
     justify-content: center;
     position: relative;
     width: 100%;
   }
-  .main-description{
+  .main-description {
     display: block;
     background-color: white;
     max-width: 1200px;
@@ -612,7 +621,7 @@ li{
     font-size: 16px;
     letter-spacing: 2px;
   }
-  .usual{
+  .usual {
     max-width: 100%;
     background-color: white;
     letter-spacing: 2px;
@@ -622,18 +631,18 @@ li{
     margin: 10px 0;
   }
 
-  main img{
-      max-width: 100%;
-      height: auto;
+  main img {
+    max-width: 100%;
+    height: auto;
   }
-  li{
+  li {
     padding-top: 15px;
   }
-  #spec{
+  #spec {
     display: flex;
     flex-direction: column-reverse;
   }
-  .unusual{
+  .unusual {
     max-width: 100%;
     background-color: white;
     text-indent: 35px;
@@ -642,79 +651,142 @@ li{
     height: auto;
     margin: 10px 0;
   }
-  #last{
+  #last {
     background-color: white;
     margin-bottom: 30px;
   }
-  .gallary-header{
+  .gallary-header {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  #back-link{
+  #back-link {
     background-color: inherit;
     color: rgba(0, 0, 0, 0.5);
     font-size: 16px;
     margin-top: 40px;
   }
-  .gallary{
+  .gallary {
     padding: 50px 0;
     display: flex;
     text-align: center;
     flex-direction: column;
   }
-  #gallary-title{
+  #gallary-title {
     font-size: 36px;
     color: white;
   }
-  .img-gallary{
+  .img-gallary {
     max-width: 80%;
     height: auto;
     margin: 30px 0;
     border-radius: 15px;
   }
-  hr{
+  hr {
     background-color: white;
     width: 80%;
     height: 10px;
   }
-  @media screen and (min-width: 601px){
-    main img{
+  @media screen and (min-width: 601px) {
+    main img {
       width: 70%;
       margin-left: 15%;
       margin-right: 15%;
     }
-    .usual, .unusual, .main-description, #last{
+    .usual,
+    .unusual,
+    .main-description,
+    #last {
       max-width: 80%;
       margin-left: 10%;
       margin-right: 10%;
     }
   }
   @media screen and (min-width: 560px) {
-    .site-title-description{
+    .site-title-description {
       bottom: 15px;
     }
   }
   @media screen and (max-width: 458.9px) {
-    .gallary-btn{
+    .gallary-btn {
       font-size: 21px;
     }
   }
   @media screen and (min-width: 900px) {
-    .site-title-description{
+    .site-title-description {
       bottom: 20px;
+    }
+  }
+  @media screen and (max-width: 360px) {
+    #main-tag {
+      font-size: 26px;
+    }
+    #id1 {
+      top: 8px;
+    }
+    #id2 {
+      top: 11px;
+      right: 2px;
+    }
+    #id3 {
+      top: 10px;
+      right: 5px;
+    }
+    #id4 {
+      right: 7px;
+      top: 6px;
+    }
+    #id4-5 {
+      right: 10px;
+      top: 1px;
+    }
+    #id5 {
+      bottom: 5px;
+      right: 12px;
+    }
+    #id6 {
+      bottom: 11px;
+      right: 15px;
+    }
+    #id7 {
+      bottom: 15px;
+      right: 17px;
+    }
+    #id8 {
+      bottom: 17px;
+      right: 19px;
+    }
+    #id9 {
+      bottom: 18px;
+      right: 22px;
+    }
+    #id10 {
+      bottom: 16px;
+      right: 24px;
+    }
+    #id11 {
+      bottom: 13px;
+      right: 27px;
+    }
+    #id12 {
+      bottom: 9px;
+      right: 29px;
+    }
+    #id13 {
+      bottom: 4px;
+      right: 32px;
     }
   }
 }
 
-.f-p{
+.f-p {
   text-align: center;
 }
-.usual .parag{
+.usual .parag {
   padding-left: 25px;
 }
 
-.phone-number{
+.phone-number {
   text-align: center;
   font-size: 16px;
   display: flex;
@@ -723,20 +795,45 @@ li{
 }
 
 .phone-number b {
-    color: black;
-    font-size: 16px;
-    text-decoration: none;
+  color: black;
+  font-size: 16px;
+  text-decoration: none;
 }
 
 .phone-number img {
-    margin-right: .3rem;
+  margin-right: 0.3rem;
 }
 
 .phone-number .max-icon {
-    margin-left: .2rem;
+  margin-left: 0.2rem;
 }
 
-.img-num{
+@media screen and (max-width: 999.9px) {
+  .address {
+    height: auto;
+    min-height: 100px;
+    box-sizing: border-box;
+    padding-bottom: 18px;
+  }
+  .phone-number {
+    flex-wrap: wrap;
+    row-gap: 2px;
+  }
+  .site-title-description {
+    align-items: stretch;
+  }
+  .gallary-btn {
+    height: auto;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 20px 0;
+  }
+}
+
+.img-num {
   position: absolute;
   top: 0;
   left: 0;
@@ -757,11 +854,45 @@ li{
 }
 
 @media screen and (max-width: 550px) {
-  a{
+  a {
     font-size: 24px;
   }
 
   .phone-number {
-      font-size: 15px;
+    font-size: 15px;
+  }
+
+  .phone-number img,
+  .phone-number .max-icon {
+    width: 26px;
+    height: 26px;
+  }
+
+  .phone-number img {
+    margin-right: 0.2rem;
+  }
+
+  .phone-number .max-icon {
+    margin-left: 0.1rem;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .phone-number {
+    font-size: 13px;
+  }
+
+  .phone-number img,
+  .phone-number .max-icon {
+    width: 24px;
+    height: 24px;
+  }
+
+  .phone-number img {
+    margin-right: 0.15rem;
+  }
+
+  .phone-number .max-icon {
+    margin-left: 0.05rem;
   }
 }
