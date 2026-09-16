@@ -142,7 +142,6 @@ li {
   #main-tag {
     position: relative;
     left: 20px;
-    white-space: nowrap;
   }
   .main-description {
     display: block;
@@ -350,93 +349,90 @@ li {
   }
   #id2 {
     position: relative;
-    top: 6px;
-    right: 4px;
-    transform: rotate(8deg);
+    top: 15px;
+    transform: rotate(3deg);
     transform-origin: bottom;
   }
   #id3 {
     position: relative;
-    top: 10px;
-    right: 8px;
-    transform: rotate(3deg);
+    top: 12px;
+    transform: rotate(-4deg);
     transform-origin: bottom;
   }
   #id4 {
     position: relative;
-    right: 12px;
-    top: 8px;
-    transform: rotate(-2deg);
+    right: 3px;
+    top: 5px;
+    transform: rotate(-8deg);
     transform-origin: bottom;
   }
   #id4-5 {
     position: relative;
-    right: 16px;
-    top: 2px;
-    transform: rotate(-6deg);
+    right: 13px;
+    transform: rotate(-9deg);
   }
   #id5 {
     position: relative;
-    bottom: 6px;
-    right: 20px;
+    bottom: 5px;
+    right: 15px;
     transform-origin: top-left;
-    transform: rotate(-9deg);
+    transform: rotate(-10deg);
   }
   #id6 {
     position: relative;
     bottom: 16px;
-    right: 24px;
+    right: 20px;
     transform-origin: top-left;
     transform: rotate(-11deg);
   }
   #id7 {
     position: relative;
-    bottom: 26px;
+    bottom: 28px;
     right: 28px;
     transform-origin: top-left;
-    transform: rotate(-13deg);
+    transform: rotate(-12deg);
   }
   #id8 {
     position: relative;
-    bottom: 35px;
-    right: 32px;
+    bottom: 36px;
+    right: 35px;
     transform-origin: top-left;
-    transform: rotate(-14deg);
+    transform: rotate(-15deg);
   }
   #id9 {
     position: relative;
-    bottom: 42px;
-    right: 36px;
+    bottom: 44px;
+    right: 44px;
     transform-origin: top-left;
-    transform: rotate(-12deg);
+    transform: rotate(-9deg);
   }
   #id10 {
     position: relative;
     bottom: 46px;
-    right: 40px;
+    right: 49px;
     transform-origin: top-left;
-    transform: rotate(-8deg);
+    transform: rotate(-3deg);
   }
   #id11 {
     position: relative;
-    bottom: 47px;
-    right: 44px;
+    bottom: 46px;
+    right: 51px;
     transform-origin: top-left;
-    transform: rotate(-3deg);
+    transform: rotate(5deg);
   }
   #id12 {
     position: relative;
     bottom: 46px;
-    right: 48px;
+    right: 53px;
     transform-origin: top-left;
-    transform: rotate(2deg);
+    transform: rotate(4deg);
   }
   #id13 {
     position: relative;
-    bottom: 42px;
-    right: 52px;
+    bottom: 43px;
+    right: 58px;
     transform-origin: top-left;
-    transform: rotate(7deg);
+    transform: rotate(9deg);
   }
   #id14 {
     position: relative;
@@ -462,89 +458,86 @@ li {
   }
   #id2 {
     position: relative;
-    top: 14px;
-    right: 3px;
-    transform: rotate(7deg);
+    top: 15px;
+    transform: rotate(3deg);
     transform-origin: bottom;
   }
   #id3 {
     position: relative;
     top: 12px;
-    right: 6px;
-    transform: rotate(2deg);
+    transform: rotate(-4deg);
     transform-origin: bottom;
   }
   #id4 {
     position: relative;
-    right: 9px;
-    top: 7px;
-    transform: rotate(-4deg);
+    right: 10px;
+    top: 5px;
+    transform: rotate(-17deg);
   }
   #id4-5 {
     position: relative;
-    right: 12px;
-    top: 1px;
-    transform: rotate(-9deg);
+    right: 13px;
+    transform: rotate(-21deg);
   }
   #id5 {
     position: relative;
-    bottom: 6px;
+    bottom: 8px;
     right: 15px;
-    transform: rotate(-13deg);
+    transform: rotate(-21deg);
   }
   #id6 {
     position: relative;
-    bottom: 13px;
-    right: 18px;
+    bottom: 16px;
+    right: 20px;
     transform-origin: top-left;
-    transform: rotate(-12deg);
+    transform: rotate(-13deg);
   }
   #id7 {
     position: relative;
-    bottom: 18px;
-    right: 21px;
+    bottom: 19px;
+    right: 24px;
     transform-origin: top-left;
     transform: rotate(-9deg);
   }
   #id8 {
     position: relative;
-    bottom: 21px;
-    right: 24px;
+    bottom: 20px;
+    right: 26px;
     transform-origin: top-left;
-    transform: rotate(-5deg);
+    transform: rotate(-3deg);
   }
   #id9 {
     position: relative;
-    bottom: 22px;
-    right: 27px;
+    bottom: 20px;
+    right: 26px;
     transform-origin: top-left;
-    transform: rotate(0deg);
+    transform: rotate(-3deg);
   }
   #id10 {
     position: relative;
-    bottom: 20px;
-    right: 30px;
+    bottom: 19px;
+    right: 31px;
     transform-origin: top-left;
     transform: rotate(5deg);
   }
   #id11 {
     position: relative;
-    bottom: 16px;
-    right: 33px;
+    bottom: 14px;
+    right: 34px;
     transform-origin: top-left;
-    transform: rotate(10deg);
+    transform: rotate(5deg);
   }
   #id12 {
     position: relative;
-    bottom: 11px;
-    right: 36px;
+    bottom: 14px;
+    right: 33px;
     transform-origin: top-left;
-    transform: rotate(14deg);
+    transform: rotate(13deg);
   }
   #id13 {
     position: relative;
-    bottom: 5px;
-    right: 39px;
+    bottom: 8px;
+    right: 37px;
     transform-origin: top-left;
     transform: rotate(17deg);
   }
@@ -591,8 +584,6 @@ li {
   }
   #main-tag {
     text-align: center;
-    white-space: nowrap;
-    font-size: 32px;
   }
   p {
     margin-block-start: 0;
@@ -715,66 +706,6 @@ li {
   @media screen and (min-width: 900px) {
     .site-title-description {
       bottom: 20px;
-    }
-  }
-  @media screen and (max-width: 360px) {
-    #main-tag {
-      font-size: 26px;
-    }
-    #id1 {
-      top: 8px;
-    }
-    #id2 {
-      top: 11px;
-      right: 2px;
-    }
-    #id3 {
-      top: 10px;
-      right: 5px;
-    }
-    #id4 {
-      right: 7px;
-      top: 6px;
-    }
-    #id4-5 {
-      right: 10px;
-      top: 1px;
-    }
-    #id5 {
-      bottom: 5px;
-      right: 12px;
-    }
-    #id6 {
-      bottom: 11px;
-      right: 15px;
-    }
-    #id7 {
-      bottom: 15px;
-      right: 17px;
-    }
-    #id8 {
-      bottom: 17px;
-      right: 19px;
-    }
-    #id9 {
-      bottom: 18px;
-      right: 22px;
-    }
-    #id10 {
-      bottom: 16px;
-      right: 24px;
-    }
-    #id11 {
-      bottom: 13px;
-      right: 27px;
-    }
-    #id12 {
-      bottom: 9px;
-      right: 29px;
-    }
-    #id13 {
-      bottom: 4px;
-      right: 32px;
     }
   }
 }
