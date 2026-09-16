@@ -1,10 +1,16 @@
 @font-face {
     font-family: "Mons";
-    src: url(../Montserrat-Medium.ttf) format('truetype');
+    src: url(../Montserrat-Medium.woff2) format('woff2'),
+         url(../Montserrat-Medium.ttf) format('truetype');
+    font-display: swap;
 }
 @font-face {
     font-family: "Os";
     src: url(../UZSans-Regularr.ttf) format('truetype');
+    font-display: swap;
+}
+picture{
+  display: contents;
 }
 body{
   background: rgb(2, 189, 242);
@@ -28,6 +34,10 @@ h1{
   color: rgb(189, 0, 0);
   text-decoration: none;
   font-size: 30px;
+  border: 5px solid rgb(189, 0, 0);
+  height: 90px;
+  width: 47%;
+  border-radius: 15px;
 }
 main{
   display: flex;
@@ -60,12 +70,6 @@ li{
 .opened{
   z-index: 99999;
   position: fixed;
-}
-.gallary-btn{
-  border: 5px solid rgb(189, 0, 0);
-  height: 90px;
-  width: 47%;
-  border-radius: 15px;
 }
 .address{
   background-color: white;
@@ -693,11 +697,6 @@ li{
       font-size: 21px;
     }
   }
-  @media screen and (min-width: 459px) {
-    .gallaty-btn{
-      font-size: 30px;
-    }
-  }
   @media screen and (min-width: 900px) {
     .site-title-description{
       bottom: 20px;
@@ -710,12 +709,6 @@ li{
 }
 .usual .parag{
   padding-left: 25px;
-}
-.address{
-  background-color: white;
-  height: 100px;
-  width: 47%;
-  margin-right: 5px;
 }
 
 .phone-number{
@@ -736,14 +729,31 @@ li{
     margin-right: .3rem;
 }
 
-.address, .gallary-btn{
-  border-radius: 15px;
+.img-num{
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 28px;
+  height: 28px;
+  padding: 0 7px;
+  box-sizing: border-box;
+  border-radius: 14px;
+  background: rgba(0, 0, 0, 0.55);
+  color: #fff;
+  font-family: "Mons", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 28px;
+  text-align: center;
+  pointer-events: none;
+  z-index: 500;
 }
+
 @media screen and (max-width: 550px) {
   a{
     font-size: 24px;
   }
-  
+
   .phone-number {
       font-size: 15px;
   }

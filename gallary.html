@@ -1,175 +1,791 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preload" href="css/style.min.css" as="style" />
+    <link
+      rel="preload"
+      href="Montserrat-Medium.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link rel="stylesheet" href="css/style.min.css" />
     <title>Cвой-причал.рф - фотогалерея работ</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" href="https://xn----8sbezdpqkje7e.xn--p1ai/favicon.png" type="image/png">   
-    <link rel="apple-touch-icon" href="https://xn----8sbezdpqkje7e.xn--p1ai/favicon.png" type="image/png"> 
-    <link rel="apple-touch-icon" sizes="76x76" href="https://xn----8sbezdpqkje7e.xn--p1ai/ios-fav-md.png" type="image/png">
-    <link rel="apple-touch-icon" sizes="120x120" href="https://xn----8sbezdpqkje7e.xn--p1ai/ios-fav-xl.png" type="image/png">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="favicon.png" type="image/png" />
+    <link rel="apple-touch-icon" href="favicon.png" type="image/png" />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="ios-fav-md.png"
+      type="image/png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="ios-fav-xl.png"
+      type="image/png"
+    />
   </head>
   <body>
-    <div id = "modal-background">
-      <img src = "images/close.png" id = "close-btn" alt="" width="70" height="70">
+    <div id="modal-background">
+      <picture
+        ><source srcset="images/close.webp" type="image/webp" />
+        <img
+          src="images/close.png"
+          id="close-btn"
+          alt=""
+          width="70"
+          height="70"
+      /></picture>
     </div>
-    <header class = "gallary-header">
-        <a href = "index.html" id = "back-link">Вернуться назад</a>
-        <h1 id = "gallary-title">Галерея работ</h1>
+    <header class="gallary-header">
+      <a href="index.html" id="back-link">Вернуться назад</a>
+      <h1 id="gallary-title">Галерея работ</h1>
     </header>
-    <main class = "gallary">
-      <section class = "first-group">
-         <div class = "line">
-          <img class = "img-gallary" src = "images/2025_1_1.JPG" alt = "Причал">
-          <img class = "img-gallary" src = "images/2025_2_1.JPG" alt = "Причал">
-          <img class = "img-gallary" src = "images/2025_3_1.JPG" alt = "Причал">
+    <main class="gallary">
+      <section class="first-group">
+        <div class="line">
+          <picture
+            ><source srcset="images/new_01_.webp" type="image/webp" />
+            <img
+              class="img-gallary"
+              src="images/new_01_.jpg"
+              alt="Причал"
+              style="align-self: center"
+              width="1920"
+              height="1440"
+          /></picture>
+          <picture
+            ><source srcset="images/new_02.webp" type="image/webp" />
+            <img
+              class="img-gallary"
+              src="images/new_02.jpg"
+              alt="Причал"
+              width="1440"
+              height="1920"
+              loading="lazy"
+          /></picture>
+          <picture
+            ><source srcset="images/new_03.webp" type="image/webp" />
+            <img
+              class="img-gallary"
+              src="images/new_03.jpg"
+              alt="Причал"
+              style="align-self: center"
+              width="886"
+              height="661"
+              loading="lazy"
+          /></picture>
         </div>
-         <div class = "line">
-          <img class = "img-gallary" src = "images/2025_4_1.JPG" alt = "Причал">
-          <img class = "img-gallary" src = "images/2025_5.JPG" style="align-self: center" alt = "Причал">
+        <div class="line">
+          <picture
+            ><source srcset="images/new_04_.webp" type="image/webp" />
+            <img
+              class="img-gallary"
+              src="images/new_04_.jpg"
+              alt="Причал"
+              width="886"
+              height="1174"
+              loading="lazy"
+          /></picture>
+          <picture
+            ><source srcset="images/new_5.webp" type="image/webp" />
+            <img
+              class="img-gallary"
+              src="images/new_5.jpg"
+              alt="Причал"
+              width="815"
+              height="1080"
+              loading="lazy"
+          /></picture>
+          <picture
+            ><source srcset="images/new_06.webp" type="image/webp" />
+            <img
+              class="img-gallary"
+              src="images/new_06.jpg"
+              alt="Причал"
+              width="811"
+              height="1080"
+              loading="lazy"
+          /></picture>
         </div>
-        <div class = "line">
-          <img class = "img-gallary" src = "images/prich6.jpg" alt = "Причал">
-          <img class = "img-gallary" src = "images/prich7.jpg" alt = "Причал">
-          <img class = "img-gallary" src = "images/may_12.jpeg" alt = "Причал">
+        <div class="line">
+          <picture
+            ><source srcset="images/new_07_.webp" type="image/webp" />
+            <img
+              class="img-gallary"
+              src="images/new_07_.jpg"
+              alt="Причал"
+              width="886"
+              height="1181"
+              loading="lazy"
+          /></picture>
+          <picture
+            ><source srcset="images/new_08.webp" type="image/webp" />
+            <img
+              class="img-gallary"
+              src="images/new_08.jpg"
+              alt="Причал"
+              width="886"
+              height="1522"
+              loading="lazy"
+          /></picture>
+          <picture
+            ><source srcset="images/new_09.webp" type="image/webp" />
+            <img
+              class="img-gallary"
+              src="images/new_09.jpg"
+              alt="Причал"
+              width="886"
+              height="1179"
+              loading="lazy"
+          /></picture>
         </div>
-        
-        <div class = "line">
-          <img class = "img-gallary" src = "images/1.jpg" alt = "Причал">
-          <img class = "img-gallary" src = "images/2.jpg" alt = "Причал">
+        <div class="line">
+          <picture
+            ><source srcset="images/new_10.webp" type="image/webp" />
+            <img
+              class="img-gallary"
+              src="images/new_10.jpg"
+              alt="Причал"
+              width="886"
+              height="657"
+              loading="lazy"
+          /></picture>
         </div>
-         <div class = "line">
-          <img class = "img-gallary" src = "images/26_1.JPG" alt = "Причал">
-          <img class = "img-gallary" src = "images/27_1.JPG" alt = "Причал">
-          <img class = "img-gallary" src = "images/28_1.JPG" alt = "Причал">
+        <div class="line">
+          <picture
+            ><source srcset="images/2025_1_1.webp" type="image/webp" />
+            <img
+              class="img-gallary"
+              src="images/2025_1_1.JPG"
+              alt="Причал"
+              width="1599"
+              height="1126"
+              loading="lazy"
+          /></picture>
+          <picture
+            ><source srcset="images/2025_2_1.webp" type="image/webp" />
+            <img
+              class="img-gallary"
+              src="images/2025_2_1.JPG"
+              alt="Причал"
+              width="1599"
+              height="1135"
+              loading="lazy"
+          /></picture>
+          <picture
+            ><source srcset="images/2025_3_1.webp" type="image/webp" />
+            <img
+              class="img-gallary"
+              src="images/2025_3_1.JPG"
+              alt="Причал"
+              width="1599"
+              height="1126"
+              loading="lazy"
+          /></picture>
         </div>
-    
-        <div class = "line">
-                  <img class = "img-gallary" src = "images/32_1.JPG" alt = "Причал">
-          <img class = "img-gallary" id="new_img" src = "images/may_3.jpeg" alt = "Причал">
+        <div class="line">
+          <picture
+            ><source srcset="images/2025_4_1.webp" type="image/webp" />
+            <img
+              class="img-gallary"
+              src="images/2025_4_1.JPG"
+              alt="Причал"
+              width="1200"
+              height="1550"
+              loading="lazy"
+          /></picture>
+          <picture
+            ><source srcset="images/2025_5.webp" type="image/webp" />
+            <img
+              class="img-gallary"
+              src="images/2025_5.JPG"
+              style="align-self: center"
+              alt="Причал"
+              width="1599"
+              height="1138"
+              loading="lazy"
+          /></picture>
         </div>
-        
-        <div class = 'line'>
-            <img class = "img-gallary high-image" src = "images/19_06_1.jpeg" alt = "Причал">
-            <img class = "img-gallary special-image" src = "images/19_06_2.jpeg" alt = "Причал">
+        <div class="line">
+          <picture
+            ><source srcset="images/prich6.webp" type="image/webp" />
+            <img
+              class="img-gallary"
+              src="images/prich6.jpg"
+              alt="Причал"
+              width="1280"
+              height="958"
+              loading="lazy"
+          /></picture>
+          <picture
+            ><source srcset="images/prich7.webp" type="image/webp" />
+            <img
+              class="img-gallary"
+              src="images/prich7.jpg"
+              alt="Причал"
+              width="1280"
+              height="958"
+              loading="lazy"
+          /></picture>
+          <picture
+            ><source srcset="images/may_12.webp" type="image/webp" />
+            <img
+              class="img-gallary"
+              src="images/may_12.jpeg"
+              alt="Причал"
+              width="1280"
+              height="960"
+              loading="lazy"
+          /></picture>
         </div>
 
-        <div class = "line">
-          <img class = "img-gallary" src = "images/21.jpg" alt = "Причал">
-          <img class = "img-gallary" src = "images/20.jpg" alt = "Причал">
-          <img class = "img-gallary" src = "images/14.JPG" alt = "Причал">
+        <div class="line">
+          <picture
+            ><source srcset="images/1.webp" type="image/webp" />
+            <img
+              class="img-gallary"
+              src="images/1.jpg"
+              alt="Причал"
+              width="1280"
+              height="961"
+              loading="lazy"
+          /></picture>
+          <picture
+            ><source srcset="images/2.webp" type="image/webp" />
+            <img
+              class="img-gallary"
+              src="images/2.jpg"
+              alt="Причал"
+              width="1280"
+              height="848"
+              loading="lazy"
+          /></picture>
+        </div>
+        <div class="line">
+          <picture
+            ><source srcset="images/26_1.webp" type="image/webp" />
+            <img
+              class="img-gallary"
+              src="images/26_1.JPG"
+              alt="Причал"
+              width="1599"
+              height="1135"
+              loading="lazy"
+          /></picture>
+          <picture
+            ><source srcset="images/27_1.webp" type="image/webp" />
+            <img
+              class="img-gallary"
+              src="images/27_1.JPG"
+              alt="Причал"
+              width="1599"
+              height="1141"
+              loading="lazy"
+          /></picture>
+          <picture
+            ><source srcset="images/28_1.webp" type="image/webp" />
+            <img
+              class="img-gallary"
+              src="images/28_1.JPG"
+              alt="Причал"
+              width="1599"
+              height="1132"
+              loading="lazy"
+          /></picture>
         </div>
 
-        <div class = "line">
-          <img class = "img-gallary" src = "images/4.jpg" alt = "Причал">
-          <img class = "img-gallary" src = "images/5.jpg" alt = "Причал">
-          <img class = "img-gallary" src = "images/3.jpg" alt = "Причал">
+        <div class="line">
+          <picture
+            ><source srcset="images/32_1.webp" type="image/webp" />
+            <img
+              class="img-gallary"
+              src="images/32_1.JPG"
+              alt="Причал"
+              width="913"
+              height="942"
+              loading="lazy"
+          /></picture>
+          <picture
+            ><source srcset="images/may_3.webp" type="image/webp" />
+            <img
+              class="img-gallary"
+              id="new_img"
+              src="images/may_3.jpeg"
+              alt="Причал"
+              width="892"
+              height="892"
+              loading="lazy"
+          /></picture>
         </div>
 
-        <div class = "line">
-          <img class = "img-gallary" src = "images/15.jpg" alt = "Причал">
-          <img class = "img-gallary" src = "images/13-copy.jpg" alt = "Причал">
+        <div class="line">
+          <picture
+            ><source srcset="images/19_06_1.webp" type="image/webp" />
+            <img
+              class="img-gallary high-image"
+              src="images/19_06_1.jpeg"
+              alt="Причал"
+              width="864"
+              height="1152"
+              loading="lazy"
+          /></picture>
+          <picture
+            ><source srcset="images/19_06_2.webp" type="image/webp" />
+            <img
+              class="img-gallary special-image"
+              src="images/19_06_2.jpeg"
+              alt="Причал"
+              width="1599"
+              height="1200"
+              loading="lazy"
+          /></picture>
         </div>
 
-        <div class = "line">
-          <img class = "img-gallary" src = "images/23.jpg" alt = "Причал">
-        </div>
-        
-        <div class = "line">
-          <img class = "img-gallary" src = "images/25.jpg" alt = "Причал">
-          <img class = "img-gallary" src = "images/prich4.png" alt = "Причал" style = "align-self: center">
+        <div class="line">
+          <picture
+            ><source srcset="images/21.webp" type="image/webp" />
+            <img
+              class="img-gallary"
+              src="images/21.jpg"
+              alt="Причал"
+              width="1280"
+              height="905"
+              loading="lazy"
+          /></picture>
+          <picture
+            ><source srcset="images/20.webp" type="image/webp" />
+            <img
+              class="img-gallary"
+              src="images/20.jpg"
+              alt="Причал"
+              width="1280"
+              height="960"
+              loading="lazy"
+          /></picture>
+          <picture
+            ><source srcset="images/14.webp" type="image/webp" />
+            <img
+              class="img-gallary"
+              src="images/14.JPG"
+              alt="Причал"
+              width="1280"
+              height="960"
+              loading="lazy"
+          /></picture>
         </div>
 
-
-        <div class = "line">
-          <img class = "img-gallary" src = "images/24.jpg" alt = "Причал">
-          <img class = "img-gallary" src = "images/11.jpg" alt = "Причал">
+        <div class="line">
+          <picture
+            ><source srcset="images/4.webp" type="image/webp" />
+            <img
+              class="img-gallary"
+              src="images/4.jpg"
+              alt="Причал"
+              width="1280"
+              height="961"
+              loading="lazy"
+          /></picture>
+          <picture
+            ><source srcset="images/5.webp" type="image/webp" />
+            <img
+              class="img-gallary"
+              src="images/5.jpg"
+              alt="Причал"
+              width="1280"
+              height="961"
+              loading="lazy"
+          /></picture>
+          <picture
+            ><source srcset="images/3.webp" type="image/webp" />
+            <img
+              class="img-gallary"
+              src="images/3.jpg"
+              alt="Причал"
+              width="1280"
+              height="961"
+              loading="lazy"
+          /></picture>
         </div>
 
-        <div class = "line high">
-          <img class = "img-gallary high-image" src = "images/9-end.jpg" alt = "Причал">
-          <img class = "img-gallary high-image" src = "images/10.jpg" alt = "Причал">
+        <div class="line">
+          <picture
+            ><source srcset="images/15.webp" type="image/webp" />
+            <img
+              class="img-gallary"
+              src="images/15.jpg"
+              alt="Причал"
+              width="1280"
+              height="960"
+              loading="lazy"
+          /></picture>
+          <picture
+            ><source srcset="images/23.webp" type="image/webp" />
+            <img
+              class="img-gallary"
+              src="images/23.jpg"
+              alt="Причал"
+              width="1280"
+              height="960"
+              loading="lazy"
+          /></picture>
+        </div>
+
+        <div class="line">
+          <picture
+            ><source srcset="images/25.webp" type="image/webp" />
+            <img
+              class="img-gallary"
+              src="images/25.jpg"
+              alt="Причал"
+              width="1280"
+              height="960"
+              loading="lazy"
+          /></picture>
+          <picture
+            ><source srcset="images/prich4.webp" type="image/webp" />
+            <img
+              class="img-gallary"
+              src="images/prich4.png"
+              alt="Причал"
+              style="align-self: center"
+              width="1280"
+              height="720"
+              loading="lazy"
+          /></picture>
+        </div>
+
+        <div class="line">
+          <picture
+            ><source srcset="images/24.webp" type="image/webp" />
+            <img
+              class="img-gallary"
+              src="images/24.jpg"
+              alt="Причал"
+              width="1280"
+              height="960"
+              loading="lazy"
+          /></picture>
+          <picture
+            ><source srcset="images/11.webp" type="image/webp" />
+            <img
+              class="img-gallary"
+              src="images/11.jpg"
+              alt="Причал"
+              width="1280"
+              height="960"
+              loading="lazy"
+          /></picture>
+        </div>
+
+        <div class="line high">
+          <picture
+            ><source srcset="images/9-end.webp" type="image/webp" />
+            <img
+              class="img-gallary high-image"
+              src="images/9-end.jpg"
+              alt="Причал"
+              width="936"
+              height="1236"
+              loading="lazy"
+          /></picture>
+          <picture
+            ><source srcset="images/10.webp" type="image/webp" />
+            <img
+              class="img-gallary high-image"
+              src="images/10.jpg"
+              alt="Причал"
+              width="934"
+              height="1280"
+              loading="lazy"
+          /></picture>
         </div>
       </section>
 
-      <section class = "second-group">
-        <div class = "line">
-            <img class = "img-gallary" src = "images/22.jpg" alt = "Причал">
-            <img class = "img-gallary" src = "images/7.jpg" alt = "Причал">
-            <img class = "img-gallary" src = "images/8-end.jpg" alt = "Причал">
+      <section class="second-group">
+        <div class="line">
+          <picture
+            ><source srcset="images/new_11.webp" type="image/webp" />
+            <img
+              class="img-gallary"
+              src="images/new_11.jpg"
+              alt="Причал"
+              width="886"
+              height="663"
+              loading="lazy"
+          /></picture>
+          <picture
+            ><source srcset="images/8-end.webp" type="image/webp" />
+            <img
+              class="img-gallary"
+              src="images/8-end.jpg"
+              alt="Причал"
+              width="1280"
+              height="961"
+              loading="lazy"
+          /></picture>
         </div>
-        <div class = "line">
-            <img class = "img-gallary" src = "images/may_4.jpeg" alt = "Причал">
+        <div class="line">
+          <picture
+            ><source srcset="images/may_4.webp" type="image/webp" />
+            <img
+              class="img-gallary"
+              src="images/may_4.jpeg"
+              alt="Причал"
+              width="1599"
+              height="1200"
+              loading="lazy"
+          /></picture>
         </div>
       </section>
 
-      <section class = "third-group">
-        <div class = "line">
-          <img class = "img-gallary" src = "images/6.jpg" alt = "Причал">
-          <img class = "img-gallary" src = "images/16.jpg" alt = "Причал">
-          <img class = "img-gallary" src = "images/red.png" alt = "Причал">
+      <section class="third-group">
+        <div class="line">
+          <picture
+            ><source srcset="images/6.webp" type="image/webp" />
+            <img
+              class="img-gallary"
+              src="images/6.jpg"
+              alt="Причал"
+              width="1280"
+              height="961"
+              loading="lazy"
+          /></picture>
+          <picture
+            ><source srcset="images/16.webp" type="image/webp" />
+            <img
+              class="img-gallary"
+              src="images/16.jpg"
+              alt="Причал"
+              width="1280"
+              height="960"
+              loading="lazy"
+          /></picture>
+          <picture
+            ><source srcset="images/red.webp" type="image/webp" />
+            <img
+              class="img-gallary"
+              src="images/red.png"
+              alt="Причал"
+              width="1599"
+              height="1200"
+              loading="lazy"
+          /></picture>
         </div>
-        <div class = "line">
-          <img class = "img-gallary" src = "images/may_2.jpeg" alt = "Причал">
-          <img class = "img-gallary" src = "images/may_5.jpeg" alt = "Причал">
+        <div class="line">
+          <picture
+            ><source srcset="images/may_2.webp" type="image/webp" />
+            <img
+              class="img-gallary"
+              src="images/may_2.jpeg"
+              alt="Причал"
+              width="1599"
+              height="1200"
+              loading="lazy"
+          /></picture>
+          <picture
+            ><source srcset="images/may_5.webp" type="image/webp" />
+            <img
+              class="img-gallary"
+              src="images/may_5.jpeg"
+              alt="Причал"
+              width="1599"
+              height="1200"
+              loading="lazy"
+          /></picture>
         </div>
-         <div class = "line">
-          <img class = "img-gallary" src = "images/29.jpeg" alt = "Причал">
-          <img class = "img-gallary" src = "images/30_1.JPG" alt = "Причал">
+        <div class="line">
+          <picture
+            ><source srcset="images/29.webp" type="image/webp" />
+            <img
+              class="img-gallary"
+              src="images/29.jpeg"
+              alt="Причал"
+              width="1599"
+              height="1131"
+              loading="lazy"
+          /></picture>
+          <picture
+            ><source srcset="images/30_1.webp" type="image/webp" />
+            <img
+              class="img-gallary"
+              src="images/30_1.JPG"
+              alt="Причал"
+              width="1599"
+              height="1138"
+              loading="lazy"
+          /></picture>
         </div>
       </section>
 
-      <section class = "fourth-group">
-        <div class = "line">
-          <img class = "img-gallary" src = "images/17-end.jpg" alt = "Причал">
-          <img class = "img-gallary" src = "images/18.jpg" alt = "Причал">
-          <img class = "img-gallary" id = "spec-img" src = "images/19.jpg" alt = "Причал">
+      <section class="fourth-group">
+        <div class="line">
+          <picture
+            ><source srcset="images/17-end.webp" type="image/webp" />
+            <img
+              class="img-gallary"
+              src="images/17-end.jpg"
+              alt="Причал"
+              width="1280"
+              height="912"
+              loading="lazy"
+          /></picture>
+          <picture
+            ><source srcset="images/18.webp" type="image/webp" />
+            <img
+              class="img-gallary"
+              src="images/18.jpg"
+              alt="Причал"
+              width="1280"
+              height="960"
+              loading="lazy"
+          /></picture>
+          <picture
+            ><source srcset="images/19.webp" type="image/webp" />
+            <img
+              class="img-gallary"
+              id="spec-img"
+              src="images/19.jpg"
+              alt="Причал"
+              width="1280"
+              height="720"
+              loading="lazy"
+          /></picture>
         </div>
       </section>
-      
-      <section class = "fifth-group">
-        <div class = "line high">
-          <img class = "img-gallary" src = "images/image57.jpg" alt = "Причал" style = "align-self: center">
-          <img class = "img-gallary high-image" src = "images/image59.jpg" alt = "Причал">
+
+      <section class="fifth-group">
+        <div class="line high">
+          <picture
+            ><source srcset="images/image57.webp" type="image/webp" />
+            <img
+              class="img-gallary"
+              src="images/image57.jpg"
+              alt="Причал"
+              style="align-self: center"
+              width="1152"
+              height="864"
+              loading="lazy"
+          /></picture>
+          <picture
+            ><source srcset="images/image59.webp" type="image/webp" />
+            <img
+              class="img-gallary high-image"
+              src="images/image59.jpg"
+              alt="Причал"
+              width="960"
+              height="1235"
+              loading="lazy"
+          /></picture>
         </div>
       </section>
-      
-      <section class = "sixth-group">
-          <div class = "line">
-              <img class = "img-gallary" src = "images/31_1.JPG">
-              <img class = "img-gallary" src = "images/advert.jpg">
-          </div>
+
+      <section class="sixth-group">
+        <div class="line">
+          <picture
+            ><source srcset="images/31_1.webp" type="image/webp" />
+            <img
+              class="img-gallary"
+              src="images/31_1.JPG"
+              width="1599"
+              height="1123"
+              loading="lazy"
+          /></picture>
+          <picture
+            ><source srcset="images/advert.webp" type="image/webp" />
+            <img
+              class="img-gallary"
+              src="images/advert.jpg"
+              width="1280"
+              height="961"
+              loading="lazy"
+          /></picture>
+        </div>
       </section>
       <div class="line">
-         <video class='img-gallary' poster="images/thubnail.jpg" controls>
-              <source src="images/video.MP4" type="video/mp4">
-              Ваш браузер не поддерживает данное видео
+        <picture
+          ><source srcset="images/new_12.webp" type="image/webp" />
+          <img
+            class="img-gallary"
+            src="images/new_12.jpg"
+            alt="Причал"
+            width="1920"
+            height="1440"
+            loading="lazy"
+        /></picture>
+      </div>
+      <div class="line">
+        <video
+          class="img-gallary"
+          poster="images/thubnail.jpg"
+          controls
+          preload="metadata"
+        >
+          <source src="images/video.MP4" type="video/mp4" />
+          Ваш браузер не поддерживает данное видео
         </video>
       </div>
     </main>
     <script>
-      const gallary = document.querySelector('.gallary');
-      const back = document.querySelector('#modal-background');
+      const gallary = document.querySelector(".gallary");
+      const back = document.querySelector("#modal-background");
       back.style.display = `none`;
 
-      if(document.documentElement.clientWidth > 999){
+      const numberedImages = Array.from(
+        document.querySelectorAll("img.img-gallary")
+      );
+      const numberBadges = numberedImages.map((img, index) => {
+        const badge = document.createElement("span");
+        badge.className = "img-num";
+        badge.textContent = index + 1;
+        document.body.appendChild(badge);
+        return badge;
+      });
 
-        gallary.onclick = function(event){
+      function positionNumberBadges() {
+        numberedImages.forEach((img, index) => {
+          const badge = numberBadges[index];
+          const rect = img.getBoundingClientRect();
+
+          if (!rect.width || !rect.height || img.classList.contains("opened")) {
+            badge.style.display = "none";
+            return;
+          }
+
+          badge.style.display = "block";
+          badge.style.top = `${rect.top + window.scrollY + 8}px`;
+          badge.style.left = `${rect.left + window.scrollX + 8}px`;
+        });
+      }
+
+      numberedImages.forEach((img) => {
+        img.addEventListener("load", positionNumberBadges);
+      });
+      window.addEventListener("load", positionNumberBadges);
+      window.addEventListener("resize", positionNumberBadges);
+      positionNumberBadges();
+
+      if (document.documentElement.clientWidth > 999) {
+        gallary.onclick = function (event) {
           const target = event.target;
-          
-          if(target.tagName === "IMG"){
-            target.classList.add('opened');
+
+          if (target.tagName === "IMG") {
+            target.classList.add("opened");
             back.style.height = `${document.body.clientHeight}px`;
             back.style.display = `block`;
+            positionNumberBadges();
           }
-        }
+        };
 
-        const closeBtn = document.querySelector('#close-btn');
-        closeBtn.onclick = function(){
-          let img = document.querySelector('.opened');
-          img.classList.remove('opened');
+        const closeBtn = document.querySelector("#close-btn");
+        closeBtn.onclick = function () {
+          let img = document.querySelector(".opened");
+          img.classList.remove("opened");
           back.style.display = `none`;
+          positionNumberBadges();
         };
       }
     </script>
