@@ -1,0 +1,4 @@
+User-agent: *
+Crawl-delay: 10
+Host: https://xn----8sbezdpqkje7e.xn--p1ai
+Sitemap: https://xn----8sbezdpqkje7e.xn--p1ai/sitemap.xml
